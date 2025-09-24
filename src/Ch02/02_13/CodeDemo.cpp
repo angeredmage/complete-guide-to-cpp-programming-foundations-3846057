@@ -10,7 +10,7 @@ int add_int(float a, double b, long double c){
 
     // Write your code here
     
-    return result;
+    return result = (int)a + (int)b + (int)c;
 }
 
 int main(){
